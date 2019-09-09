@@ -1,6 +1,10 @@
 body{
 
     font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
 
 }
 
@@ -72,13 +76,18 @@ li{
     
 
 }
+footer {
+    background-color: grey;
+    display: table-row;
+    height: 0;
+}
 
 .footerdiv{
 
     background-color: darkcyan;
     position: absolute;
-    bottom: 10px;
-    width: 99%;
+    
+    width: 100%;
     
     
 
@@ -108,5 +117,45 @@ li{
     padding-top: 10px;
     font-size: 20px;
     color: white;
+
+}
+.innehåll{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    padding: 20px;
+
+}
+
+a{
+
+    color:white;
+    text-decoration: none;
+
+}
+a:hover{
+
+    color: #333333;
+    text-decoration: underline;
+
+}
+
+.innehåll > h1{
+
+   
+    float: left;
+    overflow: auto;
+
+}
+
+.innehåll > p{
+
+    float: left;
+    max-width: 500px;
+    text-align: left;
+    
 
 }
