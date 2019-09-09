@@ -1,0 +1,168 @@
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: table;
+
+}
+
+.headerdiv{
+
+    background-color: rgb(255, 0, 128);
+    max-width: 100%;
+    max-height: 300px;
+    padding-bottom: 50px; 
+
+}
+.page-name{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    
+    
+
+}
+
+li{
+
+    list-style: none;
+    
+
+}
+.menu{
+
+    list-style: none;
+    text-align: center;
+    float: left;
+    display: block;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 50px;
+    margin-left: 5px;
+    max-width: 50px;
+    
+
+}
+
+.menu:hover{
+
+    background-color: #222222;
+    text-decoration: underline;
+
+}
+
+.menu:active{
+
+    background-color: black;
+    
+
+}
+
+
+
+.headerbutton{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+footer {
+    background-color: grey;
+    display: table-row;
+    height: 0;
+}
+
+.footerdiv{
+
+    background-color: rgb(255, 0, 128);
+    position: absolute;
+    
+    width: 100%;
+    
+    
+
+}
+
+.mainfootul{
+
+
+    display:flex;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.subfootul{
+
+    float:left;
+    padding-left: 100px;
+    font-size: 30px;
+    padding-bottom:0px;
+    color: white;
+
+}
+
+.subfootul > li{
+
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.innehåll{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333333;
+    padding: 20px;
+
+}
+
+a{
+
+    color:white;
+    text-decoration: none;
+
+}
+a:hover{
+
+    color: #333333;
+    text-decoration: underline;
+
+}
+
+table{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 10px;
+    
+
+}
+
+
+.headtable > th{
+    border: 4px solid #333333;
+    border-collapse: collapse;
+    padding: 10px;
+   
+}
+.subtable > th{
+
+    border: 4px solid #6e6e6e;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
