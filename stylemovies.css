@@ -148,21 +148,30 @@ table{
     align-items: center;
     justify-content: center;
     border-spacing: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
     
 
 }
 
 
 .headtable > th{
-    border: 4px solid #333333;
+    border: 6px solid #333333;
     border-collapse: collapse;
     padding: 10px;
+    font-size: 25px;
+    background-color: rgb(255, 0, 128);
+    color: white;
    
 }
 .subtable > th{
 
-    border: 4px solid #6e6e6e;
+    border: 4px solid #333333;
     border-collapse: collapse;
-    padding: 10px;
+    padding: 5px;
+    background-color: rgb(224, 0, 112);
+    color: white;
+    
 
 }
