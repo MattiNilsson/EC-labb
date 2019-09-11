@@ -7,20 +7,18 @@ body{
     display: table;
     background-image: url(TestBg3.png);
     background-repeat: url(TestBg3.png);
-    
 
 }
 
 .headerdiv{
 
-    background-color: orange;
+    background-color: rgb(176, 7, 243);
     max-width: 100%;
     max-height: 300px;
     padding-bottom: 50px; 
     box-shadow: -1px 6px 24px 0px rgba(0,0,0,0.92);
 -webkit-box-shadow: -1px 6px 24px 0px rgba(0,0,0,0.92);
 -moz-box-shadow: -1px 6px 24px 0px rgba(0,0,0,0.92);
-    
 
 }
 .page-name{
@@ -108,14 +106,15 @@ footer {
 
 .footerdiv{
 
-    background-color: orange;
+    background-color: rgb(176, 7, 243);
     position: absolute;
     
     width: 100%;
-    
+
     box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
     -webkit-box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
     -moz-box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
+    
     
 
 }
@@ -170,54 +169,27 @@ a:hover{
 
 }
 
-img{
+fieldset{
 
-
-    max-width: 300px;
-    border: 6px solid #333333;
-
-}
-
-.image{
-
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #333333;
+    margin-left: 38%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    
+    
     display:flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    
+    font-size: 30px;
+    color: #333333;
 
+}
+label{
+
+    font-size:20px;
 
 }
 
-.headline{
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    
-
-}
-
-.abouttext{
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    
-    
-
-}
-
-.abouttext > p{
-
-    float: left;
-    max-width: 270px;
-    text-align: center;
-    font-size: 20px;
-    
-
-    
-
-}
