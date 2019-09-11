@@ -5,12 +5,13 @@ body{
     width: 100%;
     margin: 0;
     display: table;
-
+   
+    
 }
 
 .headerdiv{
 
-    background-color: rgb(255, 0, 128);
+    background-color: rgb(9, 228, 93);
     max-width: 100%;
     max-height: 300px;
     padding-bottom: 50px; 
@@ -86,15 +87,14 @@ footer {
 
 .footerdiv{
 
-    background-color: rgb(255, 0, 128);
+
+    background-color: rgb(9, 228, 93);
     position: absolute;
     
     width: 100%;
-
     box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
     -webkit-box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
     -moz-box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
-    
     
 
 }
@@ -105,6 +105,7 @@ footer {
     display:flex;
     align-items: left;
     justify-content: left;
+   
 
 }
 
@@ -149,46 +150,52 @@ a:hover{
 
 }
 
-table{
+.innehåll > h1{
 
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border-spacing: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    border-collapse: collapse;
-
-}
-
-
-.headtable > th{
-    border: 6px solid #333333;
-    
-    padding: 10px;
-    font-size: 25px;
-    background-color: rgb(255, 0, 128);
-    color: white;
    
-}
-.subtable > td{
+    float: left;
+    overflow: auto;
 
-    border: 4px solid #333333;
-    border-collapse: collapse;
-    padding: 5px;
-    background-color: rgb(128, 3, 65);
-    color: white;
+}
+
+.innehåll > p{
+
+    float: left;
+    max-width: 500px;
+    text-align: left;
     
 
 }
-tr:nth-of-type(2n) > td
-{
 
-    border: 4px solid #333333;
-    border-collapse: collapse;
-    padding: 5px;
-    background-color: rgb(185, 3, 94);
-    color: white;
+.hemsidor{
+
+    float:left;
+
+}
+
+.link{
+
+    color: black;
+    list-style: circle;
+    text-align: left;
+
+
+}
+
+.link > a{
+
+    color:black;
+    text-align: left;
+    padding-left: 5px;
+    text-decoration: underline;
+
+}
+
+.link > a:hover{
+
+    color:blue;
+    text-align: left;
+    padding-left: 5px;
+    text-decoration: underline;
 
 }
