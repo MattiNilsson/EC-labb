@@ -193,6 +193,8 @@ a:hover{
 
 fieldset{
 
+    background-color: rgb(228, 228, 228);
+
     border-width: 10px;
     border-style: dashed;
     border-color: #333333;
@@ -207,6 +209,10 @@ fieldset{
     justify-content: center;
     font-size: 30px;
     color: #333333;
+    box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
+    -webkit-box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
+    -moz-box-shadow: 1px 8px 24px 0px rgba(0,0,0,0.92);
+    
 
 }
 label{
